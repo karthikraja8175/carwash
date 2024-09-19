@@ -1,0 +1,45 @@
+.services{
+    margin-top:5%; 
+    background-color: #D9D9D9;
+    justify-content: center;
+    align-items: center;
+    height:2000px;
+    width: 100vw;
+    position: relative;
+    display: inline-block;
+  }
+  .service-header{
+    text-align: center;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 105px;
+    margin-top: 15px;
+  
+} 
+.service-header > span{
+color: #7f3b34;
+}
+     
+  .services-image{
+    margin-top: 25px;
+    margin-left: 25px ;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap:10% 3%;
+      width: 100vw;
+    height: 100vh;
+  }
+
+
+  .services-parent img{
+    width :70%;
+    height:90%;
+    filter: drop-shadow(10px 5px 14px #000000);
+    transition: all;
+    transition: scale 0.6s ease-in-out;
+    }
+
+  .services-parent img:hover{
+    scale: 1.1;
+  }
